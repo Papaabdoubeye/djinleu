@@ -1,0 +1,28 @@
+z-index: 2;
+  opacity: 1;
+  transition: all 0.2s ease;
+}
+#video .video__wrapper .overlay.inactive {
+  opacity: 0;
+  pointer-events: none;
+}
+#video .video__wrapper .overlay:hover {
+  opacity: 0.9;
+}
+#video .video__wrapper .overlay div {
+  background: #fff;
+  width: 50%;
+  transition: opacity 0.2s ease;
+  cursor: pointer;
+}
+#video .video__wrapper .overlay div:hover {
+  opacity: 0;
+}
+#video .video__wrapper .overlay .left,
+#video .video__wrapper .overlay .right {
+  opacity: 0.3;
+}
+#video .video__wrapper #videoGame {
+  width: 100%;
+  height: auto;
+}
